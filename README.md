@@ -9,6 +9,7 @@ Animation graphs can be used to show useful trends in data, for example, a firew
 ## MVC:
 
 Part 1 of models:
+
 There are two main parts of classes in the first part of the model:
 1.	Motion
 2.	Shapes
@@ -25,9 +26,11 @@ Controller:
 
 Controller includes the start method that used to controll the showing of different views: visual view, text view and svg view. Buttons will be showed in the view and connected to controller from the Animation view.
 
+
 ## Developer:
 Susan Yang
 Xinyao Liu
+
 
 ## Tech Stack
 Java
