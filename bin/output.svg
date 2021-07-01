@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" x=200 y=70 width=600 height=600 version="1.1">
+<rect id="R" x=200 y=200 width=50 height=200 fill="rgb(255, 0, 0)">
+<animate attributeType="CSS" begin="0.333333s" dur="1.333333s" attributeName="x" from=200 to=300 fill="freeze"/>
+<animate attributeType="CSS" begin="0.333333s" dur="1.333333s" attributeName="y" from=200 to=300 fill="freeze"/>
+<animate attributeType="CSS" begin="1.700000s" dur="0.633333s" attributeName="width" from=50 to=25 fill="freeze"/>
+<animate attributeType="CSS" begin="2.333333s" dur="1.000000s" attributeName="x" from=300 to=200 fill="freeze"/>
+<animate attributeType="CSS" begin="2.333333s" dur="1.000000s" attributeName="y" from=300 to=200 fill="freeze"/>
+</rect>
+<ellipse id="C" cx=440 cy=70 rx=120 ry=70 fill="rgb(0, 0, 255)">
+<animate attributeType="CSS" begin="0.666667s" dur="1.000000s" attributeName="cy" from=70 to=250 fill="freeze"/>
+<animate attributeType="CSS" begin="1.666667s" dur="0.666667s" attributeName="cy" from=250 to=370 fill="freeze"/>
+<animate attributeType="CSS" begin="1.666667s" dur="0.666667s" attributeName="fill" from="rgb(0, 0, 255)" to="rgb(0, 170, 85)" fill="freeze"/>
+<animate attributeType="CSS" begin="2.333333s" dur="0.333333s" attributeName="fill" from="rgb(0, 170, 85)" to="rgb(0, 255, 0)" fill="freeze"/>
+</ellipse>
+</svg>
