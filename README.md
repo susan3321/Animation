@@ -1,9 +1,8 @@
-# Overview of Final Project - Animation
+# Animation
+## Final Project for [CS5004] Object-Oriented Design at Northeastern University
+## Instructor: John Wilder
 
-## Main()
-Main function will read the input from the terminal and assign the input data to the controller.
-
-
+# Introduction
 
 ## Part 1 of models:
 There are two main parts of classes in the first part of the model:
@@ -30,8 +29,6 @@ Animation builder impl implements the interface of Animation Builder that was pr
 Animation model constructs the animation model includes the data of the board and the list of motions and shapes. For the get state method, time is the input. Get state method includes a for loop for each key of shapes and each motion corresponding to the key. If any motion occurs in the given time, the related shape of the motion will update all memebers' values using the calculated value at the current time state. At the end of the loop, the get state method in the animation model will return the Array list of shapes that should appear in the view.
 
 
-
-
 ## View:
 There are three parts of view, the text view, the animation view and the SVG view. They all implements the common interface IView and override the display method accordingly.
 
@@ -45,11 +42,15 @@ TextView is able to produce a textual description which contains the information
 SVGView produces SVG style code based on the string outputs from the TextView. It gathers the parameters for the color, X, Y, width and height, as well as the type, then rephrase it into one SVG style sentence. Finally the state of shapes at all time intervals will be translated into one SVG style sentence each. They will be append with the header and footer to generate an overall SVG file.
 
 
-
-
 ## Controller:
 Controller includes the start method that used to controll the showing of different views: visual view, text view and svg view. Buttons will be showed in the view and connected to controller from the Animation view.
 
+## Developer:
+Susan Yang
+Xinyao Liu
+
+## Tech Stack
+Java
 
 
 
