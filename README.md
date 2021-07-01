@@ -1,6 +1,6 @@
 # Animation
-## Final Project for [CS5004] Object-Oriented Design at Northeastern University
-## Instructor: John Wilder
+Final Project for [CS5004] Object-Oriented Design at Northeastern University
+Instructor: John Wilder
 
 # Introduction
 
